@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#hero {
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('/img/hero-bg.png');
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 30px
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    float: left;
+}
+
+.menu {
+    float: right;
+    padding-top: 15px;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.cta {
+    padding: 150px 5px;
+    width: 50%;
+}
+
+.cta-info h2{
+    font-size: 52px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 55px;
+}
+
+.cta-info p {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.img-iphone {
+    float: right;
+    width: 50%;
+    position: absolute;
+    right: -80px;
+}
+
+.cta-btn {
+    padding: 25px 20px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    background-color: #282828;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.cta-btn img {
+    vertical-align: middle;
+    padding-right: 10px
+}
+
+.cta-btn:hover {
+    background-color: #737373;
+    transition: 0.3s;
+}
+
+.features-title {
+    text-align: center;
+    margin-top: 85px;
+}
+
+.features-title h2 {
+    color: #8a8a8a;
+    font-size: 52px;
+    margin-bottom: 50px
+}
+
+.features-title p {
+    color: #3a3a3a;
+    font-size: 22px;
+    padding: 0 120px
+}
+
+.row {
+    overflow: hidden;
+}
+
+.column {
+    text-align: center;
+    width: 33.33%;
+    float: left;
+    padding-top: 70px;
+    
+}
+
+.column h3 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #1a1a1a;
+    text-transform: uppercase;
+}
+
+.column p {
+    padding: 0 20px;
+    color: #646464;
+}
+
+#nose-bg {
+    background: url('/img/nose-bg.png');
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+}
+
+.nose {
+    width: 65%;
+}
+
+.nose h2 {
+    text-transform: uppercase;
+    padding-top: 120px;
+    font-size: 52px;
+    
+}
+
+.nose p {
+    font-size: 24px;
+    padding-top: 50px;
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.nose a {
+    padding: 10px 35px;
+    background: #d9332d;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-bottom: 175px;
+}
+
+.nose a:hover {
+    background: #e76763;
+    transition: 0.3s;
+}
+
+footer {
+    background: #2e2e38;
+    overflow: hidden;
+    color: white;
+    padding-bottom: 110px;
+}
+
+
+
+.footer-logo {
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+
+.col-footer {
+    width: 33.33%;
+    float: left;
+}
+
+footer h4 {
+    padding-bottom: 40px;
+}
+
+
+.ul-post li{
+    font-size: 12px;
+    padding-left: 70px;
+    margin-bottom: 5px;
+    line-height: 20px;
+}
+
+.red {
+    background: url('/img/rectangle.png') no-repeat;
+    
+}
+
+.block {
+    display: block;
+}
+
+.tweet li {
+    margin-bottom: 12px;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.about {
+    font-size: 15px;
+    padding-right: 180px;
+}
+
+.copy {
+    text-align: center;
+    padding: 25px 0;
+    
+}
+
+.copy h4{
+    display: inline-block;
+    
+    margin-right: 50px;
+}
+
+.copy img {
+    vertical-align: middle;
+}
+
