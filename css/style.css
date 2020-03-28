@@ -5,7 +5,7 @@
 }
 
 #hero {
-    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('/img/hero-bg.png');
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../img/hero-bg.png');
     background-size: cover;
     overflow: hidden;
     padding-top: 30px
@@ -127,7 +127,7 @@
 }
 
 #nose-bg {
-    background: url('/img/nose-bg.png');
+    background: url('../img/nose-bg.png');
     background-size: cover;
     background-position: center;
     margin-top: 100px;
